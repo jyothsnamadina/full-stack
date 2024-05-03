@@ -1,0 +1,96 @@
+body
+{
+   background-image:"65.jpg";
+   font-family: 'Broadway';
+}
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top:50px
+    }
+.same{
+    width: 1200px;
+    heigth: 75px;
+    margin: auto;
+}
+.nav-list li {
+    padding: 30px;
+    padding: 10px;
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+ 
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+ 
+#search {
+    
+    padding:5px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    margin-top:20px;
+}
+
+ 
+.rightnav {
+    width: 90%;
+    text-align: right;
+   margin-top:0px;
+}
+
+
+.login{
+        width: 370px;
+        overflow: hidden;
+        margin: auto;
+        margin: 0 0 0 515px;
+        padding: 50px;
+        background: #21618C;
+        border-radius: 15px ;
+        align-items:center;
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+label{
+    color: #08ffd1;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    float: right;
+    color: cyan;
+}
