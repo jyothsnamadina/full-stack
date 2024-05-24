@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses Registration</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body >
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home" class="menu-link">Home</a></li>
+                <li><a href="#courses" class="menu-link">Courses</a></li>
+                <li><a href="#register" class="menu-link">Register</a></li>
+                <li><a href="#contact" class="menu-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Online Courses</h1>
+            <p>We offer comprehensive courses in HTML, CSS, and JavaScript to help you become a proficient web developer.</p>
+        </section>
+        <section id="courses">
+            <h2>Courses</h2>
+            <p><strong>HTML Course:</strong> Learn the fundamentals of HTML, the standard markup language used to create web pages. This course covers elements, attributes, headings, paragraphs, links, images, and more.</p>
+            <p><strong>CSS Course:</strong> Master the art of styling web pages with CSS. This course covers selectors, properties, values, layouts, colors, fonts, and responsive design techniques.</p>
+            <p><strong>JavaScript Course:</strong> Discover the power of JavaScript for creating dynamic and interactive web content. This course includes variables, functions, events, DOM manipulation, and more.</p>
+        </section>
+        <section id="register">
+            <h2>Register for a Course</h2>
+            <form id="registrationForm">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">Select a course</option>
+                    <option value="html">HTML Course</option>
+                    <option value="css">CSS Course</option>
+                    <option value="javascript">JavaScript Course</option>
+                </select>
+                <br>
+                <button type="submit">Register</button>
+            </form>
+            <div id="formMessage"></div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div id="contactInfo"></div>
+        </section>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>

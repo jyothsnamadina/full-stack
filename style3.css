@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #0044cc;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav ul li a.active {
+    background-color: #002a80;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#registrationForm {
+    margin-top: 1rem;
+}
+
+#registrationForm label {
+    display: block;
+    margin-top: 1rem;
+}
+
+#registrationForm input,
+#registrationForm select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+#registrationForm button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#registrationForm button:hover {
+    background-color: #002a80;
+}
+
+#formMessage {
+    margin-top: 1rem;
+    color: red;
+}
+
+#contactInfo {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    display: none; /* Hidden initially */
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+}
